@@ -1,0 +1,218 @@
+:root {
+  --orange: #ff7a00;
+  --purple: #a020f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.hero {
+  min-height: 100vh;
+  background: url("tree-738816_1280.webp") no-repeat center/cover;
+  padding: 30px 60px;
+}
+
+/* TOP BAR */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.logo span {
+  color: var(--orange);
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--orange);
+}
+
+/* SEARCH */
+.search-area {
+  display: flex;
+  align-items: center;
+}
+
+.search-area input {
+  padding: 7px 10px;
+  width: 220px;
+  border: 1px solid var(--orange);
+  background: rgba(0,0,0,0.4);
+  color: white;
+}
+
+.search-area button {
+  padding: 8px 15px;
+  background: var(--orange);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+
+.left-col h1 {
+  font-size: 50px;
+}
+
+.accent {
+  color: var(--orange);
+  font-size: 70px;
+}
+
+.course {
+  font-size: 45px;
+}
+
+.lead {
+  margin-top: 15px;
+  max-width: 420px;
+}
+
+.join-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: var(--orange);
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.join-btn:active {
+  background: white;
+  color: black;
+}
+
+/* RIGHT LOGIN BOX */
+.login-card {
+  width: 300px;
+  background: rgba(0,0,0,0.75);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.login-card .title {
+  background: white;
+  color: var(--orange);
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.login-card .title:hover {
+  background: var(--purple);
+  color: white;
+}
+
+.login-card label {
+  margin-top: 12px;
+  display: block;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #999;
+  color: white;
+  border-radius: 6px;
+}
+
+/* LOGIN BUTTON */
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: var(--orange);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.btn-login:hover {
+  background: white;
+  color: black;
+}
+
+/* SIGNUP PART */
+.signup {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.signup a {
+  color: var(--orange);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* SOCIAL */
+.social-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.social-row {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.social-btn {
+  width: 36px;
+  height: 36px;
+  background: rgb(247, 245, 245);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.social-btn:hover {
+  background: var(--orange);
+}
